@@ -61,7 +61,7 @@ if ('serviceWorker' in navigator) {
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/bunch">
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<Navigate to="/merchant" replace />} />
         <Route path="/merchant" element={<MerchantApp />} />
